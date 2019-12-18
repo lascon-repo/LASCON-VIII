@@ -20,14 +20,14 @@ sudo apt install libx11-dev git bison flex automake libtool libxext-dev libncurs
 ### Installing Anaconda
 
 In your brownser, download the Anaconda installer for Linux (choose the 3.* version): 
-```https://www.anaconda.com/distribution/#download-section```
+https://www.anaconda.com/distribution/#download-section
 
 Open a terminal in the same folder where you saved the installer and enter the following to install Anaconda for Python 3.7:
 ```
 bash Anaconda3-2019.10-Linux-x86_64.sh
 ```
 
-Follow the instructions in ```https://docs.anaconda.com/anaconda/install/linux/``` and write "yes" when asked to.
+Follow the instructions in https://docs.anaconda.com/anaconda/install/linux/ and write "yes" when asked to.
 
 ### Creating an Anaconda environment and installing NEST
 
