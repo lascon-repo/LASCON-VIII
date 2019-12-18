@@ -5,6 +5,18 @@ We recommend that you install Python version 3.6.x. Although some programs will 
 
 ## Instructions for Linux users (Ubuntu based systems)
 
+### Install dependencies
+
+Compiling and running the following softwares requires several tools; how they are installed depends on the Linux distribution. We are going to focus the commands for Ubuntu based systems. Nevertheless, installations using ```conda``` or ```pip``` should be the same to any Linux distribution.
+
+Before starting the softwares install we should garantee some dependencies by running the next line: 
+
+```
+sudo apt install libx11-dev git bison flex automake libtool libxext-dev libncurses-dev python3-dev xfonts-100dpi cython3 libopenmpi-dev python3-scipy make zlib1g-dev libreadline-dev
+```
+
+*Note: This was extracted from the NEURON website but should be enough also for the other softwares.* 
+
 ### Installing Anaconda
 
 In your brownser, download the Anaconda installer for Linux (choose the 3.* version): 
@@ -18,6 +30,8 @@ bash Anaconda3-2019.10-Linux-x86_64.sh
 Follow the instructions in ```https://docs.anaconda.com/anaconda/install/linux/``` and write "yes" when asked to.
 
 ### Creating an Anaconda environment and installing NEST
+
+The Anaconda environment is a way to safely install different versions of packages or Python without compromising other installations. More information can be found in: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
 
 We will start first creating an Anaconda environment named "lascon" (you can choose another name as you wish) and we will already give instructions to install the simulator NEST and the Python version 3.6. To do this, open a terminal and write:
 
