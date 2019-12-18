@@ -86,7 +86,7 @@ from neuron import h, gui
 
 *Note: if you receive the error message "ModuleNotFoundError: No module named 'neuron'", then you have to check again your PYTHONPATH and export it correctly.*
 
-*Another possible error is related with libreadline.so.5. If you see this message install the following:*
+*Note:Another possible error is related with libreadline.so.5. If you see this message install the following:*
 ```
 sudo apt-get update
 sudo apt-get install libreadline5
