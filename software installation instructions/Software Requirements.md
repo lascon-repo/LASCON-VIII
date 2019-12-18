@@ -109,7 +109,7 @@ If it was installed correct, you can run by writing the command in the terminal:
 
 ## Instructions for MAC users
 
-The same steps can be followed as described for Linux users with the exception of NEURON installation. For doing this you have to enter in the website https://neuron.yale.edu/neuron/download#macos and download the MAC version and install following the instructions.
+The same steps can be followed as described for Linux users with the exception of NEURON installation. For doing this you have to enter in the website https://neuron.yale.edu/neuron/download#macos download the MAC version and install following the instructions.
 
 ## Instructions for Windows users
 
