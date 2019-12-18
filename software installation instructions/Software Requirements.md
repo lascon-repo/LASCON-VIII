@@ -7,7 +7,7 @@ We recommend that you install Python version 3.6.x. Although some programs will 
 
 ### Install dependencies
 
-Compiling and running the following softwares requires several tools; how they are installed depends on the Linux distribution. We are going to focus the commands for Ubuntu based systems. Nevertheless, installations using ```conda``` or ```pip``` should be the same to any Linux distribution.
+Compiling and running the following software requires several tools; how they are installed depends on the Linux distribution. We are going to focus the commands for Ubuntu based systems. Installations using ```conda``` or ```pip``` should work for any Linux distribution.
 
 Before starting the softwares install we should garantee some dependencies by running the next line: 
 
