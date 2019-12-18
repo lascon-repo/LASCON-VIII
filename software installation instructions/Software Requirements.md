@@ -1,7 +1,7 @@
 # Software Requirements
 
-The instructions in this document is related to all free softwares and packages needed to be installed for the LASCON tutorials.
-We recommend you to install Python version 3.6.x. Although some programs will work on newer versions, some others could not work. Nevertheless, with version 3.6.x you should be able to run every program that will be used in LASCON.
+The instructions in this document are related to all free software and packages needed to be installed for the LASCON tutorials.
+We recommend that you install Python version 3.6.x. Although some programs will work on newer versions, some may not. With version 3.6.x you should be able to run all programs that will be used in LASCON.
 
 ## Instructions for Linux users (Ubuntu based systems)
 
@@ -113,4 +113,4 @@ The same steps can be followed as described for Linux users with the exception o
 
 ## Instructions for Windows users
 
-Some of the softwares does not have support for Windows, for these cases we recommend the usage of virtual machines as the VirtualBox. A Live Media is offered by the NEST website: https://nest-simulator.readthedocs.io/en/latest/download.html. This Live Media contains a Linux Ubuntu version with the main packages already installed there (NEST, NEURON, etc). The packages not included you can install using the instructions for Linux users.
+Some software do not have support for Windows. For such cases we recommend the use of virtual machines as the VirtualBox. A Live Media is offered by the NEST website: https://nest-simulator.readthedocs.io/en/latest/download.html. This Live Media contains a Linux Ubuntu version with the main packages already installed there (NEST, NEURON, etc). You can install the packages not included using the above instructions for Linux users.
