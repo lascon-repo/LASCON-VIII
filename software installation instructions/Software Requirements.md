@@ -5,7 +5,7 @@ We recommend you to install Python version 3.6.x. Although some programs will wo
 
 ## Instructions for Linux users (Ubuntu based systems)
 
-### Installing Anaconda and PIP
+### Installing Anaconda
 
 In your brownser, download the Anaconda installer for Linux (choose the 3.* version): 
 ```https://www.anaconda.com/distribution/#download-section```
@@ -22,7 +22,7 @@ Follow the instructions in ```https://docs.anaconda.com/anaconda/install/linux/`
 We will start first creating an Anaconda environment named "lascon" (you can choose another name as you wish) and we will already give instructions to install the simulator NEST and the Python version 3.6. To do this, open a terminal and write:
 
 ```
-conda create --name lascon -c conda-forge nest-simulator=*=mpi_openmpi* python=3.6 ipython octave brian2 jupyter
+conda create --name lascon -c conda-forge nest-simulator=*=mpi_openmpi* python=3.6 pip matplotlib ipython octave brian2 jupyter
 ```
 
 This command will install NEST as described in https://nest-simulator.readthedocs.io/en/latest/installation/index.html. Other useful Python packages are going to be installed, as matplotlib, numpy, scipy, etc. Additionally, three more softwares are being installed: Ipython, Octave and Brian2. Ipython is a interactive shell for Python. Octave is opensource alternative for Matlab. Brian2 is another simulator for spiking neural networks.
@@ -85,6 +85,12 @@ from neuron import h, gui
 ```
 
 *Note: if you receive the error message "ModuleNotFoundError: No module named 'neuron'", then you have to check again your PYTHONPATH and export it correctly.*
+
+*Another possible error is related with libreadline.so.5. If you see this message install the following:*
+```
+sudo apt-get update
+sudo apt-get install libreadline5
+```
 
 ### Installing NetPyNE
 
