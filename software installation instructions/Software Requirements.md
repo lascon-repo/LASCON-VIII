@@ -39,7 +39,8 @@ We will start first creating an Anaconda environment named "lascon" (you can cho
 conda create --name lascon -c conda-forge nest-simulator=*=mpi_openmpi* python=3.6 pip matplotlib ipython octave brian2 jupyter
 ```
 
-This command will install NEST as described in https://nest-simulator.readthedocs.io/en/latest/installation/index.html. Other useful Python packages are going to be installed, as matplotlib, numpy, scipy, etc. Additionally, three more softwares are being installed: Ipython, Octave and Brian2. Ipython is a interactive shell for Python. Octave is opensource alternative for Matlab. Brian2 is another simulator for spiking neural networks.
+This command will install NEST as described in https://nest-simulator.readthedocs.io/en/latest/installation/index.html. Also in the website you can find more information about to install NEST for different systems.
+Other useful Python packages are going to be installed, as matplotlib, numpy, scipy, etc. Additionally, three more softwares are being installed: Ipython, Octave and Brian2. Ipython is a interactive shell for Python. Octave is opensource alternative for Matlab. Brian2 is another simulator for spiking neural networks.
 
 You can check if the enviroment was created by writing in the terminal:
 ```
