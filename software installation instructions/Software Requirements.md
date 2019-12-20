@@ -29,6 +29,8 @@ bash Anaconda3-2019.10-Linux-x86_64.sh
 
 Follow the instructions in https://docs.anaconda.com/anaconda/install/linux/ and write "yes" when asked to.
 
+*Reopen terminal to enable anaconda!!!
+
 ### Creating an Anaconda environment and installing NEST
 
 The Anaconda environment is a way to safely install different versions of packages or Python without compromising other installations. More information can be found in: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
