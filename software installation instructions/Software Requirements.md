@@ -83,7 +83,7 @@ If it worked properly, a window will appear. To close the NEURON console you can
 To be able to import NEURON from Python console you have to add the PYTHONPATH in your system:
 
 ```
-export PYTHONPATH=/usr/local/nrn/lib/python/
+export PYTHONPATH=/usr/local/nrn/lib/python/:$PYTHONPATH
 ```
 
 *Note: "/usr/local/nrn/lib/python/" is the default folder where NEURON will be installed by the precompiled installers.*
