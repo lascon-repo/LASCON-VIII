@@ -12,7 +12,7 @@ Compiling and running the following software requires several tools; how they ar
 Before starting the softwares install we should garantee some dependencies by running the next line: 
 
 ```
-sudo apt install libx11-dev git bison flex automake libtool libxext-dev libncurses-dev python3-dev xfonts-100dpi cython3 libopenmpi-dev python3-scipy make zlib1g-dev libreadline-dev
+sudo apt install libx11-dev git bison flex automake libtool libxext-dev libncurses-dev python3-dev xfonts-100dpi cython3 libopenmpi-dev make zlib1g-dev libreadline-dev libreadline5
 ```
 
 *Note: This was extracted from the NEURON website but should be enough also for the other softwares.* 
