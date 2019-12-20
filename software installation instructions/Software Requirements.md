@@ -72,7 +72,7 @@ where filename is the name of the deb file. This will install NEURON in /usr/loc
      ```rpm --install filename```
 where filename is the name of the rpm file. This will install NEURON in /usr/local/nrn, and InterViews in /usr/local/iv.
 
-After the installation you can test it by writing in the terminal: 
+After the installation you can test it by writing in the terminal (**must restart terminal**): 
 ```
 nrngui
 ```
