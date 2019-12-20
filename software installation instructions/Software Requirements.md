@@ -65,11 +65,12 @@ After downloaded the .deb or .rpm file you can follow the instructions:
 
 
 Installation hints 
-.deb package: Double-click the deb package, or in a terminal as root type
-     ```dpkg -i filename```
+.deb package: Double-click the deb package, or in a terminal type
+     ```sudo dpkg -i filename```
 where filename is the name of the deb file. This will install NEURON in /usr/local/nrn, and InterViews in /usr/local/iv.
-.rpm package: As root, type
-     ```rpm --install filename```
+
+.rpm package: Type
+     ```sudo rpm --install filename```
 where filename is the name of the rpm file. This will install NEURON in /usr/local/nrn, and InterViews in /usr/local/iv.
 
 After the installation you can test it by writing in the terminal (**must restart terminal**): 
