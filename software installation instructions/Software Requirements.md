@@ -38,7 +38,7 @@ The Anaconda environment is a way to safely install different versions of packag
 We will start first creating an Anaconda environment named "lascon" (you can choose another name as you wish) and we will already give instructions to install the simulator NEST and the Python version 3.6. To do this, open a terminal and write:
 
 ```
-conda create --name lascon -c conda-forge nest-simulator=*=mpi_openmpi* python=3.6 pip matplotlib ipython octave brian2 jupyter
+conda create --name lascon -c conda-forge nest-simulator=*=mpi_openmpi* python=3.6 pip matplotlib ipython octave brian2 jupyter pydstool
 ```
 
 This command will install NEST as described in https://nest-simulator.readthedocs.io/en/latest/installation/index.html. Also in the website you can find more information about to install NEST for different systems.
@@ -56,14 +56,6 @@ conda activate lascon
 ```
 
 **It is important to activate the environment before the next steps. If you open another terminal you have to activate it again.**
-
-### Installing PyDSTool
-
-We recommend you to install PyDSTool via pip by running in the terminal:
-
-```
-pip install --user PyDSTool==0.90.3
-```
 
 ### Installing NEURON
 
