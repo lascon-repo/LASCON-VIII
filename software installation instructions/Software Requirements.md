@@ -137,7 +137,7 @@ If it was installed correct, you can run it by writing the command in the termin
 
 ## Instructions for Mac users
 
-The same steps given above for Linux can be followed by Mac users with the exception of NEURON installation. To install NEURON you have to access the website https://neuron.yale.edu/neuron/download#macos, download the Mac version and install following the given instructions.
+The same steps given above for Linux can be followed by Mac users with the exception of NEURON installation. To install NEURON you have to access the website https://neuron.yale.edu/neuron/download#macos, download the Mac version and follow the instructions given.
 
 ## Instructions for Windows users
 
