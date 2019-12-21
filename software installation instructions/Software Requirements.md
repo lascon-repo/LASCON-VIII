@@ -107,6 +107,7 @@ sudo apt-get install libreadline5
 
 Information about NetPyNE installation can be found at: http://netpyne.org/install.html
 
+<!---
 We suggest you to follow installation steps using pip and GUI version. To install NetPyNE-UI through pip run from your terminal:
 
 ```
@@ -117,6 +118,7 @@ jupyter nbextension enable --py widgetsnbextension
 ```
 
 If it was installed correct, you can run by writing the command in the terminal: ```NetPyNE-UI ```
+-->
 
 ## Instructions for MAC users
 
