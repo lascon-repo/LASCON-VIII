@@ -107,6 +107,12 @@ sudo apt-get install libreadline5
 
 Information about NetPyNE installation can be found at: http://netpyne.org/install.html
 
+We suggest you to follow installation steps using pip without GUI version. To install NetPyNE through pip run from your terminal:
+
+```
+pip install netpyne
+```
+
 <!---
 We suggest you to follow installation steps using pip and GUI version. To install NetPyNE-UI through pip run from your terminal:
 
