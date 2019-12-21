@@ -148,5 +148,7 @@ Some software that will be used in LASCON do not have support for Windows. So, f
 Please follow the instructions on the appropriate website:
 
 Linux: http://www.math.pitt.edu/~bard/xpp/xpp.html
+
 Mac: http://www.math.pitt.edu/~bard/xpp/installonmac.html
+
 Windows: http://www.math.pitt.edu/~bard/xpp/installonwindows.html 
