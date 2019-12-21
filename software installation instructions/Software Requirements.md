@@ -43,7 +43,7 @@ conda create --name lascon -c conda-forge nest-simulator=*=mpi_openmpi* python=3
 ```
 
 This command will install NEST as described in https://nest-simulator.readthedocs.io/en/latest/installation/index.html. In this website you can also find more information about how to install NEST in different systems.
-The command also installs some useful scientific Python packages: matplotlib, numpy, scipy, etc. Additionally, three other software are also installed: Ipython, Octave and Brian2. Ipython is a interactive shell for Python. Octave is open source alternative for Matlab. Brian2 is another simulator for spiking neural networks.
+The command also installs some useful scientific Python packages: matplotlib, numpy, scipy, etc. Additionally, three other software are also installed: Ipython, Octave and Brian2. Ipython is an interactive shell for Python. Octave is an open source alternative for Matlab. Brian2 is another simulator for spiking neural networks.
 
 You can check if the enviroment was created by writing in the terminal:
 ```
