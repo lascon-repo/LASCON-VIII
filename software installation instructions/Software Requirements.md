@@ -20,7 +20,7 @@ sudo apt install libx11-dev git bison flex automake libtool libxext-dev libncurs
 
 ### Installing Anaconda
 
-In your brownser, download the Anaconda installer for Linux (choose the 3.* version): 
+In your browser, download the Anaconda installer for Linux (choose the 3.* version): 
 https://www.anaconda.com/distribution/#download-section
 
 Open a terminal in the same folder where you saved the installer and enter the following to install Anaconda for Python:
